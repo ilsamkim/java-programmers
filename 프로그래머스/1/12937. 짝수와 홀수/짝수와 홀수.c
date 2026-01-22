@@ -4,7 +4,7 @@
 #include <string.h>
 
 char* solution(int num) {
-    char* answer = (char*)malloc(sizeof(char) * 5);
+    char* answer = (char*)malloc(5-num%2);
     
     if (num % 2 == 0) {
         strcpy(answer, "Even");

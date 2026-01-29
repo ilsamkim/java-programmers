@@ -1,6 +1,6 @@
 class Solution {
     public int[] solution(long n) {
-        String m = String.valueOf(n);
+        String m = ""+ n;
             int[] answer = new int[m.length()];
 
             for (int i = 0; i < answer.length; i++) {
